@@ -17,7 +17,7 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
           <h1
             class="Heading_headingStyleVariants_1__nbnubj1 Heading_headingBaseStyle__nbnubj0 sprinkles_color_white_darkMode__1pzb2zopf sprinkles_color_white_lightMode__1pzb2zoph"
           >
-            Some Body
+            Ali Torun
           </h1>
           <h2
             class="Heading_headingStyleVariants_2__nbnubj2 Heading_headingBaseStyle__nbnubj0 sprinkles_color_white_darkMode__1pzb2zopf sprinkles_color_white_lightMode__1pzb2zoph"
@@ -586,7 +586,7 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
         >
           <a
             class="fa-3x"
-            href="https://github.com/colinhemphill"
+            href="https://github.com/erailea"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -626,7 +626,7 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
         Copyright ©
         2022
          
-        Some Body
+        Ali Torun
       </div>
       <div>
         <small>
@@ -655,7 +655,7 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
            
           <a
             class="Footer_footerLinkStyle__1jkfoa51"
-            href="https://github.com/colinhemphill/nextjs-resume-generator"
+            href="https://github.com/erailea"
             rel="noopener noreferrer"
             target="_blank"
           >

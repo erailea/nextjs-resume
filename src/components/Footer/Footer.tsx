@@ -79,7 +79,7 @@ const Footer: React.FC<FooterProps> = (props) => {
             . Learn how to deploy your own resume with the{' '}
             <a
               className={footerLinkStyle}
-              href="https://github.com/colinhemphill/nextjs-resume-generator"
+              href="https://github.com/erailea"
               rel="noopener noreferrer"
               target="_blank"
             >

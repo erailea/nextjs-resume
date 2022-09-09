@@ -91,6 +91,6 @@ The template is built to be responsive, beautiful, and accessible right out of t
 
 We use [OG Impact](https://ogimpact.sh/) to generate dynamic Open Graph (Facebook/Twitter) share images. By default it will look something like this example from the Facebook Debugger:
 
-![Screenshot of Facebook debugger showing that the share image has been generated to display the text "Some Body—Placeholder, TX"](docs/facebookDebugger.png)
+![Screenshot of Facebook debugger showing that the share image has been generated to display the text "Ali Torun, TR"](docs/facebookDebugger.png)
 
 This dynamic share image will use your custom `primaryColor` setting, as well as data from the CMS.

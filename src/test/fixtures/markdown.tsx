@@ -19,7 +19,7 @@ export const educationalExperiences: CMSEducationalExperience[] = [
 
 export const links: CMSLink[] = [
   {
-    href: 'https://github.com/colinhemphill',
+    href: 'https://github.com/erailea',
     iconName: 'github',
     title: 'GitHub',
   },
@@ -27,8 +27,8 @@ export const links: CMSLink[] = [
 
 export const personalInformation: CMSPersonalInformation = {
   attributes: {
-    familyName: 'Body',
-    givenName: 'Some',
+    familyName: 'Torun',
+    givenName: 'Ali',
     title: 'Cool Person',
     location: 'Somewhere Only We Know',
   },
