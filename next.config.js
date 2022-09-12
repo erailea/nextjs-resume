@@ -11,7 +11,7 @@ const isDev = process.env.NODE_ENV === 'development';
 
 const pwa = {
   disable: isDev,
-  dest: 'public',
+  //dest: 'public',
   runtimeCaching,
 };
 

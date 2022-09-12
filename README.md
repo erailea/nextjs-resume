@@ -94,3 +94,10 @@ We use [OG Impact](https://ogimpact.sh/) to generate dynamic Open Graph (Faceboo
 ![Screenshot of Facebook debugger showing that the share image has been generated to display the text "Ali Torun, TR"](docs/facebookDebugger.png)
 
 This dynamic share image will use your custom `primaryColor` setting, as well as data from the CMS.
+
+## Re Image
+
+```bash
+# re generate image and compose
+$ docker-compose down && docker-compose build --pull && docker-compose up -d
+```
