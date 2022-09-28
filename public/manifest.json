@@ -1,6 +1,6 @@
 {
-  "name": "Ali Torun's Professional Résumé",
-  "short_name": "Ali Torun",
+  "name": "Fullstack Software Developer's Professional Résumé",
+  "short_name": "Fullstack Software Developer",
   "icons": [
     {
       "src": "/favicon-512.png",
@@ -9,7 +9,7 @@
     }
   ],
   "background_color": "#18181b",
-  "description": "Fullstack Software Developer.",
+  "description": "Fullstack Software Developer",
   "display": "fullscreen",
   "start_url": "/",
   "theme_color": "#0073e6"
