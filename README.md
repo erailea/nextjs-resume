@@ -101,3 +101,4 @@ This dynamic share image will use your custom `primaryColor` setting, as well as
 # re generate image and compose
 $ docker-compose down && docker-compose build --pull && docker-compose up -d
 ```
+test
