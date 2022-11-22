@@ -42,7 +42,7 @@ const Footer: React.FC<FooterProps> = (props) => {
                     <FontAwesomeIcon
                       aria-hidden
                       color={colors.white}
-                      icon={link.iconName}
+                      icon={['fab', link.iconName]}
                       transform="shrink-8"
                     />
                   </span>
