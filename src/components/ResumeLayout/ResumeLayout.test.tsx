@@ -5,6 +5,7 @@ import {
   links,
   personalInformation,
   professionalExperiences,
+  projects,
   skills,
 } from '../../test/fixtures/markdown';
 import { render } from '../../test/testUtils';
@@ -20,7 +21,8 @@ describe('<ResumeLayout />', () => {
   it('Matches the snapshot', () => {
     const { container } = render(
       <ResumeLayout
-        education={educationalExperiences}
+        educations={educationalExperiences}
+        projects={projects}
         hobbies={hobbies}
         links={links}
         personalInformation={personalInformation}

@@ -6,6 +6,7 @@ import invariant from 'tiny-invariant';
 
 export interface SkillsMarkdownAttributes {
   title: string;
+  stars: 1 | 2 | 3;
 }
 
 export interface CMSSkillCategory {

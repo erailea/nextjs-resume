@@ -10,17 +10,21 @@ const ProfessionalItem: React.FC<CMSProfessionalExperience> = (props) => {
   return (
     <article className={articleStyle}>
       <Heading level={4}>
-        <span
-          className={atoms({
-            backgroundColor: { darkMode: 'white', lightMode: 'dark' },
-            borderRadius: 'rounded',
-            color: { darkMode: 'dark', lightMode: 'white' },
-            paddingX: 2,
-          })}
-        >
-          {props.attributes.title}
-        </span>{' '}
-        at {props.attributes.organization}
+        {props.attributes.title.split('-').map((t, i) => (
+          <div key={i}>
+            <span
+              className={atoms({
+                backgroundColor: { darkMode: 'white', lightMode: 'dark' },
+                borderRadius: 'rounded',
+                color: { darkMode: 'dark', lightMode: 'white' },
+                paddingX: 2,
+              })}
+            >
+              {t}
+            </span>{' '}
+            at {props.attributes.organization}
+          </div>
+        ))}
       </Heading>
       <div>
         <FontAwesomeIcon

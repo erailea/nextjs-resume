@@ -22,7 +22,7 @@ const Skills: React.FC<SkillsProps> = (props) => {
         {skills.map((skill, skillIndex) => (
           <Column key={skill.slug} width={{ xs: 12, lg: 4 }}>
             <Heading level={4}>
-              <StarRating stars={(skills.length - skillIndex) as 1 | 2 | 3} />{' '}
+              <StarRating stars={skill.attributes.stars as 1 | 2 | 3} />{' '}
               {skill.attributes.title}
             </Heading>
             <div dangerouslySetInnerHTML={{ __html: skill.html }} />

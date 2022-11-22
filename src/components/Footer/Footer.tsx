@@ -42,7 +42,7 @@ const Footer: React.FC<FooterProps> = (props) => {
                     <FontAwesomeIcon
                       aria-hidden
                       color={colors.white}
-                      icon={['fab', link.iconName]}
+                      icon={link.iconName}
                       transform="shrink-8"
                     />
                   </span>
@@ -76,16 +76,6 @@ const Footer: React.FC<FooterProps> = (props) => {
             >
               Vercel
             </a>
-            . Learn how to deploy your own resume with the{' '}
-            <a
-              className={footerLinkStyle}
-              href="https://github.com/erailea"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              nextjs-resume-generator
-            </a>
-            !
           </small>
         </div>
       </Container>

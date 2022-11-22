@@ -6,7 +6,9 @@ import invariant from 'tiny-invariant';
 
 export interface EducationalExperienceMarkdownAttributes {
   achievement: string;
+  achievementDescription: string;
   completionYear: string;
+  startYear: string;
   institution: string;
 }
 

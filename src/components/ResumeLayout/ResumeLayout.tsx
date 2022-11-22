@@ -1,6 +1,7 @@
 import {
   faBriefcase,
   faGraduationCap,
+  faUsersGear,
 } from '@fortawesome/free-solid-svg-icons';
 import indefinite from 'indefinite';
 import React from 'react';
@@ -17,18 +18,20 @@ import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import PageHead from '../PageHead';
 import ProfessionalItem from '../ProfessionalItem/ProfessionalItem';
+import ProjectItem from '../ProjectItem/ProjectItem';
 import Section from '../Section/Section';
 import SectionHeader from '../SectionHeader/SectionHeader';
 import Skills from '../Skills/Skills';
 
 const ResumeLayout: React.FC<ResumePageProps> = (props) => {
   const {
-    education,
+    educations,
     hobbies,
     links,
     personalInformation,
     privateInformation,
     professional,
+    projects,
     secret,
     skills,
   } = props;
@@ -76,12 +79,22 @@ const ResumeLayout: React.FC<ResumePageProps> = (props) => {
           <SectionHeader icon={faGraduationCap} text="Education" />
         </Box>
 
-        {education.map((experience) => (
-          <EducationItem key={experience.slug} {...experience} />
+        {educations.map((education) => (
+          <EducationItem key={education.slug} {...education} />
         ))}
       </Section>
 
       <Section color="alternate">
+        <Box marginBottom={6}>
+          <SectionHeader icon={faUsersGear} text="Projects" />
+        </Box>
+
+        {projects.map((project) => (
+          <ProjectItem key={project.slug} {...project} />
+        ))}
+      </Section>
+
+      <Section color="standard">
         <HobbiesAndInterests hobbies={hobbies} />
       </Section>
 

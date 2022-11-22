@@ -96,21 +96,27 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     flexGrow: 1,
     flexShrink: 0,
+  },
+  sectionAlternate: {
+    marginBottom: spacers[4],
     padding: spacers[4],
   },
-  section: { marginBottom: spacers[4] },
+  section: {
+    marginBottom: spacers[4],
+    padding: spacers[4],
+  },
   sectionHeading: {
     alignItems: 'center',
     display: 'flex',
     flexDirection: 'row',
-    fontSize: fontSizes.m,
+    fontSize: fontSizes.s,
     fontWeight: 700,
   },
   sectionHeadingNonHTML: {
     alignItems: 'center',
     display: 'flex',
     flexDirection: 'row',
-    fontSize: fontSizes.m,
+    fontSize: fontSizes.s,
     fontWeight: 700,
     marginBottom: spacers[1],
   },
@@ -184,7 +190,8 @@ const htmlProps: Omit<HtmlProps, 'children'> = {
 
 const PDF: React.FC<ResumePageProps> = (props) => {
   const {
-    education,
+    educations,
+    projects,
     hobbies,
     personalInformation,
     privateInformation,
@@ -250,7 +257,7 @@ const PDF: React.FC<ResumePageProps> = (props) => {
                 <View key={skill.slug}>
                   <View style={styles.itemHeading}>
                     <View style={styles.sectionHeadingStars}>
-                      {Array.from(Array(skills.length - skillIndex)).map(
+                      {Array.from(Array(skill.attributes.stars)).map(
                         (star, starIndex) => (
                           <Image
                             key={starIndex}
@@ -303,7 +310,7 @@ const PDF: React.FC<ResumePageProps> = (props) => {
               </View>
             ))}
           </View>
-          <View style={styles.section}>
+          <View style={styles.sectionAlternate}>
             <View style={styles.sectionHeading}>
               <Image
                 src={`${iconPath}/circle-graduation-cap.png`}
@@ -311,7 +318,7 @@ const PDF: React.FC<ResumePageProps> = (props) => {
               />
               <Text>Education</Text>
             </View>
-            {education.map((educationExperience) => (
+            {educations.map((educationExperience) => (
               <View key={educationExperience.slug}>
                 <View style={styles.itemHeading}>
                   <Text style={styles.bold}>
@@ -332,6 +339,23 @@ const PDF: React.FC<ResumePageProps> = (props) => {
             ))}
           </View>
           <View style={styles.section}>
+            <View style={styles.sectionHeading}>
+              <Image
+                src={`${iconPath}/circle-briefcase.png`}
+                style={styles.sectionHeadingIcon}
+              />
+              <Text>Projects</Text>
+            </View>
+            {projects.map((project) => (
+              <View key={project.slug}>
+                <View style={styles.itemHeading}>
+                  <Text style={styles.bold}>{project.attributes.name}</Text>
+                </View>
+                <Html {...htmlProps}>{project.html}</Html>
+              </View>
+            ))}
+          </View>
+          <View style={styles.sectionAlternate}>
             <View style={styles.sectionHeading}>
               <Image
                 src={`${iconPath}/circle-pen-paintbrush.png`}
