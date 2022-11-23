@@ -7,6 +7,7 @@ import {
   circleBorderRadius,
   roundedBorderRadius,
 } from './styles/borderRadius.css';
+import { displayFlex } from './styles/display.css';
 import { darkScheme, lightScheme } from './themes/colorScheme.css';
 import { vars } from './themes/contract.css';
 import { breakpointMediaQueries } from './utils/breakpointMediaQueries';
@@ -28,7 +29,13 @@ const responsiveProperties = defineProperties({
       rounded: roundedBorderRadius,
     },
     display: ['none', 'block', 'flex'],
+    justifyContent: ['space-around'],
+    alignItems: ['center'],
     height: ['100%'],
+    position: ['fixed'],
+    width: ['157px', '100%'],
+    right: vars.spacers,
+    bottom: vars.spacers,
     margin: vars.spacers,
     marginBottom: vars.spacers,
     marginLeft: vars.spacers,
@@ -55,12 +62,12 @@ const responsiveProperties = defineProperties({
 const colorProperties = defineProperties({
   conditions: {
     darkMode: {
-      '@media': '(prefers-color-scheme: dark)',
+      //'@media': '(prefers-color-scheme: dark)',
       selector: `html:not(${lightScheme}) &`,
     },
     hover: { selector: '&:hover' },
     lightMode: {
-      '@media': '(prefers-color-scheme: light)',
+      //'@media': '(prefers-color-scheme: light)',
       selector: `html:not(${darkScheme}) &`,
     },
   },

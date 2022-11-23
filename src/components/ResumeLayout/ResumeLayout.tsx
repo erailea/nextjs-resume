@@ -22,6 +22,7 @@ import ProjectItem from '../ProjectItem/ProjectItem';
 import Section from '../Section/Section';
 import SectionHeader from '../SectionHeader/SectionHeader';
 import Skills from '../Skills/Skills';
+import ThemeSettings from '../ThemeSettings/ThemeSettings';
 
 const ResumeLayout: React.FC<ResumePageProps> = (props) => {
   const {
@@ -99,6 +100,7 @@ const ResumeLayout: React.FC<ResumePageProps> = (props) => {
       </Section>
 
       <Footer links={links} personalInformation={personalInformation} />
+      <ThemeSettings />
     </>
   );
 };

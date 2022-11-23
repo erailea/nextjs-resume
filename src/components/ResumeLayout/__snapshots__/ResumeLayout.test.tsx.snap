@@ -3,10 +3,10 @@
 exports[`<ResumeLayout /> Matches the snapshot 1`] = `
 <div>
   <header
-    class="Header__1xhgu2h0 sprinkles_paddingTop_8_xs__1pzb2zom0 sprinkles_paddingBottom_8_xs__1pzb2zofi sprinkles_backgroundColor_black_darkMode__1pzb2zonc sprinkles_backgroundColor_primary_lightMode__1pzb2zont"
+    class="Header__1xhgu2h0 sprinkles_paddingTop_8_xs__1pzb2zor6 sprinkles_paddingBottom_8_xs__1pzb2zoko sprinkles_backgroundColor_black_darkMode__1pzb2zosi sprinkles_backgroundColor_primary_lightMode__1pzb2zosz"
   >
     <div
-      class="Container_containerStyle__rjkhb02 Container_containerFluidStyle__rjkhb01 margin_mxAuto__1nlkou20 Container__rjkhb00 sprinkles_paddingLeft_4_xs__1pzb2zoh0 sprinkles_paddingRight_4_xs__1pzb2zoj6 sprinkles_textAlign_center_xs__1pzb2zon0 sprinkles_textAlign_left_md__1pzb2zomw"
+      class="Container_containerStyle__rjkhb02 Container_containerFluidStyle__rjkhb01 margin_mxAuto__1nlkou20 Container__rjkhb00 sprinkles_paddingLeft_4_xs__1pzb2zom6 sprinkles_paddingRight_4_xs__1pzb2zooc sprinkles_textAlign_center_xs__1pzb2zos6 sprinkles_textAlign_left_md__1pzb2zos2"
     >
       <div
         class="Row_rowStyle__p6dtm90 Row_rowStyle_verticalAlign_center__p6dtm98"
@@ -15,27 +15,27 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
           class="Column_columnStyle__1y78ssd0"
         >
           <h1
-            class="Heading_headingStyleVariants_1__nbnubj1 Heading_headingBaseStyle__nbnubj0 sprinkles_color_white_darkMode__1pzb2zopf sprinkles_color_white_lightMode__1pzb2zoph"
+            class="Heading_headingStyleVariants_1__nbnubj1 Heading_headingBaseStyle__nbnubj0 sprinkles_color_white_darkMode__1pzb2zoul sprinkles_color_white_lightMode__1pzb2zoun"
           >
             Ali Torun
           </h1>
           <h2
-            class="Heading_headingStyleVariants_2__nbnubj2 Heading_headingBaseStyle__nbnubj0 sprinkles_color_white_darkMode__1pzb2zopf sprinkles_color_white_lightMode__1pzb2zoph"
+            class="Heading_headingStyleVariants_2__nbnubj2 Heading_headingBaseStyle__nbnubj0 sprinkles_color_white_darkMode__1pzb2zoul sprinkles_color_white_lightMode__1pzb2zoun"
           >
             Cool Person
           </h2>
         </div>
         <div
-          class="Column_columnStyle__1y78ssd0 Column_xsColumnsStyle_12__1y78ssdc Column_smColumnsStyle_12__1y78ssdp Column_mdColumnsStyle_auto__1y78ssd13 sprinkles_paddingTop_4_xs__1pzb2zolc sprinkles_paddingTop_0_md__1pzb2zokq"
+          class="Column_columnStyle__1y78ssd0 Column_xsColumnsStyle_12__1y78ssdc Column_smColumnsStyle_12__1y78ssdp Column_mdColumnsStyle_auto__1y78ssd13 sprinkles_paddingTop_4_xs__1pzb2zoqi sprinkles_paddingTop_0_md__1pzb2zopw"
         >
           <a
-            class="Button_buttonBaseStyle__105ch171 borderRadius_rounded__1ilbsqa0 Button__105ch170 sprinkles_paddingLeft_4_xs__1pzb2zoh0 sprinkles_paddingRight_4_xs__1pzb2zoj6 sprinkles_paddingTop_2_xs__1pzb2zol0 sprinkles_paddingBottom_2_xs__1pzb2zoei Button_buttonStyle_color_medium__105ch175 Button_buttonStyle_size_lg__105ch178"
+            class="Button_buttonBaseStyle__105ch171 borderRadius_rounded__1ilbsqa0 Button__105ch170 sprinkles_paddingLeft_4_xs__1pzb2zom6 sprinkles_paddingRight_4_xs__1pzb2zooc sprinkles_paddingTop_2_xs__1pzb2zoq6 sprinkles_paddingBottom_2_xs__1pzb2zojo Button_buttonStyle_color_medium__105ch175 Button_buttonStyle_size_lg__105ch178"
             href="/api/pdf"
             target="_blank"
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-file-pdf sprinkles_marginRight_2_xs__1pzb2zo80"
+              class="svg-inline--fa fa-file-pdf sprinkles_marginRight_2_xs__1pzb2zod6"
               data-icon="file-pdf"
               data-prefix="fas"
               focusable="false"
@@ -55,10 +55,10 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
     </div>
   </header>
   <section
-    class="Section_sectionStyle_standard__1t64bv44 Section__1t64bv40 sprinkles_paddingTop_6_xs__1pzb2zolo sprinkles_paddingTop_6_md__1pzb2zolq sprinkles_paddingTop_8_lg__1pzb2zom3 sprinkles_paddingBottom_6_xs__1pzb2zof6 sprinkles_paddingBottom_6_md__1pzb2zof8 sprinkles_paddingBottom_8_lg__1pzb2zofl Section__1t64bv42 sprinkles_backgroundColor_dark_darkMode__1pzb2zonf sprinkles_backgroundColor_white_lightMode__1pzb2zonz sprinkles_color_white_darkMode__1pzb2zopf sprinkles_color_dark_lightMode__1pzb2zooz"
+    class="Section_sectionStyle_standard__1t64bv44 Section__1t64bv40 sprinkles_paddingTop_6_xs__1pzb2zoqu sprinkles_paddingTop_6_md__1pzb2zoqw sprinkles_paddingTop_8_lg__1pzb2zor9 sprinkles_paddingBottom_6_xs__1pzb2zokc sprinkles_paddingBottom_6_md__1pzb2zoke sprinkles_paddingBottom_8_lg__1pzb2zokr Section__1t64bv42 sprinkles_backgroundColor_dark_darkMode__1pzb2zosl sprinkles_backgroundColor_white_lightMode__1pzb2zot5 sprinkles_color_white_darkMode__1pzb2zoul sprinkles_color_dark_lightMode__1pzb2zou5"
   >
     <div
-      class="Container_containerStyle__rjkhb02 Container_containerFluidStyle__rjkhb01 margin_mxAuto__1nlkou20 Container__rjkhb00 sprinkles_paddingLeft_4_xs__1pzb2zoh0 sprinkles_paddingRight_4_xs__1pzb2zoj6"
+      class="Container_containerStyle__rjkhb02 Container_containerFluidStyle__rjkhb01 margin_mxAuto__1nlkou20 Container__rjkhb00 sprinkles_paddingLeft_4_xs__1pzb2zom6 sprinkles_paddingRight_4_xs__1pzb2zooc"
     >
       <div
         class="Row_rowStyle__p6dtm90"
@@ -67,13 +67,13 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
           class="Column_columnStyle__1y78ssd0 Column_xsColumnsStyle_12__1y78ssdc Column_lgColumnsStyle_6__1y78ssd19"
         >
           <article
-            class="sprinkles_marginBottom_6_xs__1pzb2zo4c sprinkles_marginBottom_0_lg__1pzb2zo3f"
+            class="sprinkles_marginBottom_6_xs__1pzb2zo9i sprinkles_marginBottom_0_lg__1pzb2zo8l"
           >
             <h3
               class="Heading_headingStyleVariants_3__nbnubj3 Heading_headingBaseStyle__nbnubj0"
             >
               <span
-                class="fa-layers fa-fw sprinkles_marginRight_2_xs__1pzb2zo80"
+                class="fa-layers fa-fw sprinkles_marginRight_2_xs__1pzb2zod6"
               >
                 <svg
                   aria-hidden="true"
@@ -131,13 +131,13 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
           class="Column_columnStyle__1y78ssd0 Column_xsColumnsStyle_12__1y78ssdc Column_lgColumnsStyle_6__1y78ssd19"
         >
           <article
-            class="sprinkles_marginBottom_6_xs__1pzb2zo4c sprinkles_marginBottom_0_lg__1pzb2zo3f"
+            class="sprinkles_marginBottom_6_xs__1pzb2zo9i sprinkles_marginBottom_0_lg__1pzb2zo8l"
           >
             <h3
               class="Heading_headingStyleVariants_3__nbnubj3 Heading_headingBaseStyle__nbnubj0"
             >
               <span
-                class="fa-layers fa-fw sprinkles_marginRight_2_xs__1pzb2zo80"
+                class="fa-layers fa-fw sprinkles_marginRight_2_xs__1pzb2zod6"
               >
                 <svg
                   aria-hidden="true"
@@ -228,13 +228,13 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sprinkles_marginTop_0_xs__1pzb2zo9u sprinkles_marginTop_4_lg__1pzb2zoal"
+        class="sprinkles_marginTop_0_xs__1pzb2zof0 sprinkles_marginTop_4_lg__1pzb2zofr"
       >
         <h3
           class="Heading_headingStyleVariants_3__nbnubj3 Heading_headingBaseStyle__nbnubj0"
         >
           <span
-            class="fa-layers fa-fw sprinkles_marginRight_2_xs__1pzb2zo80"
+            class="fa-layers fa-fw sprinkles_marginRight_2_xs__1pzb2zod6"
           >
             <svg
               aria-hidden="true"
@@ -282,7 +282,7 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
           Skills & Expertise
         </h3>
         <div
-          class="Row_rowStyle__p6dtm90 sprinkles_paddingTop_2_xs__1pzb2zol0 sprinkles_paddingTop_0_lg__1pzb2zokr"
+          class="Row_rowStyle__p6dtm90 sprinkles_paddingTop_2_xs__1pzb2zoq6 sprinkles_paddingTop_0_lg__1pzb2zopx"
         >
           <div
             class="Column_columnStyle__1y78ssd0 Column_xsColumnsStyle_12__1y78ssdc Column_lgColumnsStyle_4__1y78ssd17"
@@ -354,19 +354,19 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
     </div>
   </section>
   <section
-    class="Section_sectionStyle_alternate__1t64bv43 Section__1t64bv40 sprinkles_paddingTop_6_xs__1pzb2zolo sprinkles_paddingTop_6_md__1pzb2zolq sprinkles_paddingTop_8_lg__1pzb2zom3 sprinkles_paddingBottom_6_xs__1pzb2zof6 sprinkles_paddingBottom_6_md__1pzb2zof8 sprinkles_paddingBottom_8_lg__1pzb2zofl Section__1t64bv41 sprinkles_backgroundColor_medium_darkMode__1pzb2zono sprinkles_backgroundColor_light_lightMode__1pzb2zonn sprinkles_color_white_darkMode__1pzb2zopf sprinkles_color_dark_lightMode__1pzb2zooz"
+    class="Section_sectionStyle_alternate__1t64bv43 Section__1t64bv40 sprinkles_paddingTop_6_xs__1pzb2zoqu sprinkles_paddingTop_6_md__1pzb2zoqw sprinkles_paddingTop_8_lg__1pzb2zor9 sprinkles_paddingBottom_6_xs__1pzb2zokc sprinkles_paddingBottom_6_md__1pzb2zoke sprinkles_paddingBottom_8_lg__1pzb2zokr Section__1t64bv41 sprinkles_backgroundColor_medium_darkMode__1pzb2zosu sprinkles_backgroundColor_light_lightMode__1pzb2zost sprinkles_color_white_darkMode__1pzb2zoul sprinkles_color_dark_lightMode__1pzb2zou5"
   >
     <div
-      class="Container_containerStyle__rjkhb02 Container_containerFluidStyle__rjkhb01 margin_mxAuto__1nlkou20 Container__rjkhb00 sprinkles_paddingLeft_4_xs__1pzb2zoh0 sprinkles_paddingRight_4_xs__1pzb2zoj6"
+      class="Container_containerStyle__rjkhb02 Container_containerFluidStyle__rjkhb01 margin_mxAuto__1nlkou20 Container__rjkhb00 sprinkles_paddingLeft_4_xs__1pzb2zom6 sprinkles_paddingRight_4_xs__1pzb2zooc"
     >
       <div
-        class="sprinkles_marginBottom_6_xs__1pzb2zo4c"
+        class="sprinkles_marginBottom_6_xs__1pzb2zo9i"
       >
         <h3
           class="Heading_headingStyleVariants_3__nbnubj3 Heading_headingBaseStyle__nbnubj0"
         >
           <span
-            class="fa-layers fa-fw sprinkles_marginRight_2_xs__1pzb2zo80"
+            class="fa-layers fa-fw sprinkles_marginRight_2_xs__1pzb2zod6"
           >
             <svg
               aria-hidden="true"
@@ -422,7 +422,7 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
         >
           <div>
             <span
-              class="sprinkles_paddingLeft_2_xs__1pzb2zogo sprinkles_paddingRight_2_xs__1pzb2zoiu sprinkles_backgroundColor_white_darkMode__1pzb2zonx sprinkles_backgroundColor_dark_lightMode__1pzb2zonh sprinkles_borderRadius_rounded_xs__1pzb2zoc sprinkles_color_dark_darkMode__1pzb2zoox sprinkles_color_white_lightMode__1pzb2zoph"
+              class="sprinkles_paddingLeft_2_xs__1pzb2zolu sprinkles_paddingRight_2_xs__1pzb2zoo0 sprinkles_backgroundColor_white_darkMode__1pzb2zot3 sprinkles_backgroundColor_dark_lightMode__1pzb2zosn sprinkles_borderRadius_rounded_xs__1pzb2zoc sprinkles_color_dark_darkMode__1pzb2zou3 sprinkles_color_white_lightMode__1pzb2zoun"
             >
               My Title
             </span>
@@ -434,7 +434,7 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
         <div>
           <svg
             aria-hidden="true"
-            class="svg-inline--fa fa-calendar sprinkles_marginRight_2_xs__1pzb2zo80"
+            class="svg-inline--fa fa-calendar sprinkles_marginRight_2_xs__1pzb2zod6"
             data-icon="calendar"
             data-prefix="far"
             focusable="false"
@@ -452,7 +452,7 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
           Current
         </div>
         <div
-          class="sprinkles_marginTop_4_xs__1pzb2zoai"
+          class="sprinkles_marginTop_4_xs__1pzb2zofo"
         >
           <div>
             Test
@@ -462,19 +462,19 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
     </div>
   </section>
   <section
-    class="Section_sectionStyle_standard__1t64bv44 Section__1t64bv40 sprinkles_paddingTop_6_xs__1pzb2zolo sprinkles_paddingTop_6_md__1pzb2zolq sprinkles_paddingTop_8_lg__1pzb2zom3 sprinkles_paddingBottom_6_xs__1pzb2zof6 sprinkles_paddingBottom_6_md__1pzb2zof8 sprinkles_paddingBottom_8_lg__1pzb2zofl Section__1t64bv42 sprinkles_backgroundColor_dark_darkMode__1pzb2zonf sprinkles_backgroundColor_white_lightMode__1pzb2zonz sprinkles_color_white_darkMode__1pzb2zopf sprinkles_color_dark_lightMode__1pzb2zooz"
+    class="Section_sectionStyle_standard__1t64bv44 Section__1t64bv40 sprinkles_paddingTop_6_xs__1pzb2zoqu sprinkles_paddingTop_6_md__1pzb2zoqw sprinkles_paddingTop_8_lg__1pzb2zor9 sprinkles_paddingBottom_6_xs__1pzb2zokc sprinkles_paddingBottom_6_md__1pzb2zoke sprinkles_paddingBottom_8_lg__1pzb2zokr Section__1t64bv42 sprinkles_backgroundColor_dark_darkMode__1pzb2zosl sprinkles_backgroundColor_white_lightMode__1pzb2zot5 sprinkles_color_white_darkMode__1pzb2zoul sprinkles_color_dark_lightMode__1pzb2zou5"
   >
     <div
-      class="Container_containerStyle__rjkhb02 Container_containerFluidStyle__rjkhb01 margin_mxAuto__1nlkou20 Container__rjkhb00 sprinkles_paddingLeft_4_xs__1pzb2zoh0 sprinkles_paddingRight_4_xs__1pzb2zoj6"
+      class="Container_containerStyle__rjkhb02 Container_containerFluidStyle__rjkhb01 margin_mxAuto__1nlkou20 Container__rjkhb00 sprinkles_paddingLeft_4_xs__1pzb2zom6 sprinkles_paddingRight_4_xs__1pzb2zooc"
     >
       <div
-        class="sprinkles_marginBottom_6_xs__1pzb2zo4c"
+        class="sprinkles_marginBottom_6_xs__1pzb2zo9i"
       >
         <h3
           class="Heading_headingStyleVariants_3__nbnubj3 Heading_headingBaseStyle__nbnubj0"
         >
           <span
-            class="fa-layers fa-fw sprinkles_marginRight_2_xs__1pzb2zo80"
+            class="fa-layers fa-fw sprinkles_marginRight_2_xs__1pzb2zod6"
           >
             <svg
               aria-hidden="true"
@@ -529,7 +529,7 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
           class="Heading_headingStyleVariants_4__nbnubj4 Heading_headingBaseStyle__nbnubj0"
         >
           <span
-            class="sprinkles_paddingLeft_2_xs__1pzb2zogo sprinkles_paddingRight_2_xs__1pzb2zoiu sprinkles_backgroundColor_white_darkMode__1pzb2zonx sprinkles_backgroundColor_dark_lightMode__1pzb2zonh sprinkles_borderRadius_rounded_xs__1pzb2zoc sprinkles_color_dark_darkMode__1pzb2zoox sprinkles_color_white_lightMode__1pzb2zoph"
+            class="sprinkles_paddingLeft_2_xs__1pzb2zolu sprinkles_paddingRight_2_xs__1pzb2zoo0 sprinkles_backgroundColor_white_darkMode__1pzb2zot3 sprinkles_backgroundColor_dark_lightMode__1pzb2zosn sprinkles_borderRadius_rounded_xs__1pzb2zoc sprinkles_color_dark_darkMode__1pzb2zou3 sprinkles_color_white_lightMode__1pzb2zoun"
           >
             Degree
           </span>
@@ -538,7 +538,7 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
         <div>
           <svg
             aria-hidden="true"
-            class="svg-inline--fa fa-building-columns sprinkles_marginRight_2_xs__1pzb2zo80"
+            class="svg-inline--fa fa-building-columns sprinkles_marginRight_2_xs__1pzb2zod6"
             data-icon="building-columns"
             data-prefix="fas"
             focusable="false"
@@ -562,19 +562,19 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
     </div>
   </section>
   <section
-    class="Section_sectionStyle_alternate__1t64bv43 Section__1t64bv40 sprinkles_paddingTop_6_xs__1pzb2zolo sprinkles_paddingTop_6_md__1pzb2zolq sprinkles_paddingTop_8_lg__1pzb2zom3 sprinkles_paddingBottom_6_xs__1pzb2zof6 sprinkles_paddingBottom_6_md__1pzb2zof8 sprinkles_paddingBottom_8_lg__1pzb2zofl Section__1t64bv41 sprinkles_backgroundColor_medium_darkMode__1pzb2zono sprinkles_backgroundColor_light_lightMode__1pzb2zonn sprinkles_color_white_darkMode__1pzb2zopf sprinkles_color_dark_lightMode__1pzb2zooz"
+    class="Section_sectionStyle_alternate__1t64bv43 Section__1t64bv40 sprinkles_paddingTop_6_xs__1pzb2zoqu sprinkles_paddingTop_6_md__1pzb2zoqw sprinkles_paddingTop_8_lg__1pzb2zor9 sprinkles_paddingBottom_6_xs__1pzb2zokc sprinkles_paddingBottom_6_md__1pzb2zoke sprinkles_paddingBottom_8_lg__1pzb2zokr Section__1t64bv41 sprinkles_backgroundColor_medium_darkMode__1pzb2zosu sprinkles_backgroundColor_light_lightMode__1pzb2zost sprinkles_color_white_darkMode__1pzb2zoul sprinkles_color_dark_lightMode__1pzb2zou5"
   >
     <div
-      class="Container_containerStyle__rjkhb02 Container_containerFluidStyle__rjkhb01 margin_mxAuto__1nlkou20 Container__rjkhb00 sprinkles_paddingLeft_4_xs__1pzb2zoh0 sprinkles_paddingRight_4_xs__1pzb2zoj6"
+      class="Container_containerStyle__rjkhb02 Container_containerFluidStyle__rjkhb01 margin_mxAuto__1nlkou20 Container__rjkhb00 sprinkles_paddingLeft_4_xs__1pzb2zom6 sprinkles_paddingRight_4_xs__1pzb2zooc"
     >
       <div
-        class="sprinkles_marginBottom_6_xs__1pzb2zo4c"
+        class="sprinkles_marginBottom_6_xs__1pzb2zo9i"
       >
         <h3
           class="Heading_headingStyleVariants_3__nbnubj3 Heading_headingBaseStyle__nbnubj0"
         >
           <span
-            class="fa-layers fa-fw sprinkles_marginRight_2_xs__1pzb2zo80"
+            class="fa-layers fa-fw sprinkles_marginRight_2_xs__1pzb2zod6"
           >
             <svg
               aria-hidden="true"
@@ -641,17 +641,17 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
     </div>
   </section>
   <section
-    class="Section_sectionStyle_standard__1t64bv44 Section__1t64bv40 sprinkles_paddingTop_6_xs__1pzb2zolo sprinkles_paddingTop_6_md__1pzb2zolq sprinkles_paddingTop_8_lg__1pzb2zom3 sprinkles_paddingBottom_6_xs__1pzb2zof6 sprinkles_paddingBottom_6_md__1pzb2zof8 sprinkles_paddingBottom_8_lg__1pzb2zofl Section__1t64bv42 sprinkles_backgroundColor_dark_darkMode__1pzb2zonf sprinkles_backgroundColor_white_lightMode__1pzb2zonz sprinkles_color_white_darkMode__1pzb2zopf sprinkles_color_dark_lightMode__1pzb2zooz"
+    class="Section_sectionStyle_standard__1t64bv44 Section__1t64bv40 sprinkles_paddingTop_6_xs__1pzb2zoqu sprinkles_paddingTop_6_md__1pzb2zoqw sprinkles_paddingTop_8_lg__1pzb2zor9 sprinkles_paddingBottom_6_xs__1pzb2zokc sprinkles_paddingBottom_6_md__1pzb2zoke sprinkles_paddingBottom_8_lg__1pzb2zokr Section__1t64bv42 sprinkles_backgroundColor_dark_darkMode__1pzb2zosl sprinkles_backgroundColor_white_lightMode__1pzb2zot5 sprinkles_color_white_darkMode__1pzb2zoul sprinkles_color_dark_lightMode__1pzb2zou5"
   >
     <div
-      class="Container_containerStyle__rjkhb02 Container_containerFluidStyle__rjkhb01 margin_mxAuto__1nlkou20 Container__rjkhb00 sprinkles_paddingLeft_4_xs__1pzb2zoh0 sprinkles_paddingRight_4_xs__1pzb2zoj6"
+      class="Container_containerStyle__rjkhb02 Container_containerFluidStyle__rjkhb01 margin_mxAuto__1nlkou20 Container__rjkhb00 sprinkles_paddingLeft_4_xs__1pzb2zom6 sprinkles_paddingRight_4_xs__1pzb2zooc"
     >
       <article>
         <h3
           class="Heading_headingStyleVariants_3__nbnubj3 Heading_headingBaseStyle__nbnubj0"
         >
           <span
-            class="fa-layers fa-fw sprinkles_marginRight_2_xs__1pzb2zo80"
+            class="fa-layers fa-fw sprinkles_marginRight_2_xs__1pzb2zod6"
           >
             <svg
               aria-hidden="true"
@@ -707,10 +707,10 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
     </div>
   </section>
   <footer
-    class="Footer__1jkfoa50 sprinkles_paddingTop_8_xs__1pzb2zom0 sprinkles_paddingBottom_8_xs__1pzb2zofi sprinkles_backgroundColor_black_darkMode__1pzb2zonc sprinkles_backgroundColor_medium_lightMode__1pzb2zonq sprinkles_color_white_darkMode__1pzb2zopf sprinkles_color_white_lightMode__1pzb2zoph sprinkles_textAlign_center_xs__1pzb2zon0"
+    class="Footer__1jkfoa50 sprinkles_paddingTop_8_xs__1pzb2zor6 sprinkles_paddingBottom_8_xs__1pzb2zoko sprinkles_backgroundColor_black_darkMode__1pzb2zosi sprinkles_backgroundColor_medium_lightMode__1pzb2zosw sprinkles_color_white_darkMode__1pzb2zoul sprinkles_color_white_lightMode__1pzb2zoun sprinkles_textAlign_center_xs__1pzb2zos6"
   >
     <div
-      class="Container_containerStyle__rjkhb02 Container_containerFluidStyle__rjkhb01 margin_mxAuto__1nlkou20 Container__rjkhb00 sprinkles_paddingLeft_4_xs__1pzb2zoh0 sprinkles_paddingRight_4_xs__1pzb2zoj6"
+      class="Container_containerStyle__rjkhb02 Container_containerFluidStyle__rjkhb01 margin_mxAuto__1nlkou20 Container__rjkhb00 sprinkles_paddingLeft_4_xs__1pzb2zom6 sprinkles_paddingRight_4_xs__1pzb2zooc"
     >
       <div
         class="AutoGrid_autoGridStyle__1atju7c2 AutoGrid_autoGridStyle_horizontalAlign_center__1atju7c6 AutoGrid_autoGridXGuttersStyle_2__1atju7cf AutoGrid_autoGridYGuttersStyle_2__1atju7cs"
@@ -755,7 +755,7 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
         </div>
       </div>
       <div
-        class="sprinkles_marginTop_4_xs__1pzb2zoai"
+        class="sprinkles_marginTop_4_xs__1pzb2zofo"
       >
         Copyright ©
         2022
@@ -789,5 +789,33 @@ exports[`<ResumeLayout /> Matches the snapshot 1`] = `
       </div>
     </div>
   </footer>
+  <div>
+    <a
+      class="ThemeSettings_themeSettingsToggleLinkStyle__1q46j6b3"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <span
+        class="fa-layers fa-fw fa-1x"
+      >
+        <svg
+          aria-hidden="true"
+          class="svg-inline--fa fa-lightbulb "
+          color="#0073e6"
+          data-icon="lightbulb"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          viewBox="0 0 384 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M112.1 454.3c0 6.297 1.816 12.44 5.284 17.69l17.14 25.69c5.25 7.875 17.17 14.28 26.64 14.28h61.67c9.438 0 21.36-6.401 26.61-14.28l17.08-25.68c2.938-4.438 5.348-12.37 5.348-17.7L272 415.1h-160L112.1 454.3zM191.4 .0132C89.44 .3257 16 82.97 16 175.1c0 44.38 16.44 84.84 43.56 115.8c16.53 18.84 42.34 58.23 52.22 91.45c.0313 .25 .0938 .5166 .125 .7823h160.2c.0313-.2656 .0938-.5166 .125-.7823c9.875-33.22 35.69-72.61 52.22-91.45C351.6 260.8 368 220.4 368 175.1C368 78.61 288.9-.2837 191.4 .0132zM192 96.01c-44.13 0-80 35.89-80 79.1C112 184.8 104.8 192 96 192S80 184.8 80 176c0-61.76 50.25-111.1 112-111.1c8.844 0 16 7.159 16 16S200.8 96.01 192 96.01z"
+            fill="currentColor"
+          />
+        </svg>
+      </span>
+    </a>
+  </div>
 </div>
 `;

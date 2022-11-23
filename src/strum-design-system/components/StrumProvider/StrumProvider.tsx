@@ -1,37 +1,34 @@
 import React, { PropsWithChildren, useEffect } from 'react';
+import usePrefersDarkMode from '../../../helpers/useDarkMode';
 import { timbre } from '../../themes';
-import {
-  darkScheme,
-  lightScheme,
-  systemScheme,
-} from '../../themes/colorScheme.css';
+import { darkScheme, lightScheme } from '../../themes/colorScheme.css';
 import { StrumContext } from './StrumContext';
 
 export interface StrumProviderProps {
-  colorScheme?: 'dark' | 'light' | 'system';
+  colorScheme?: 'dark' | 'light';
   theme?: string | null;
 }
 
 const StrumProvider: React.FC<PropsWithChildren<StrumProviderProps>> = (
   props,
 ) => {
-  const { children, colorScheme = 'system', theme = timbre } = props;
+  const darkMode = usePrefersDarkMode();
+
+  const { children, theme = timbre } = props;
+  let { colorScheme = darkMode ? 'dark' : 'light' } = props;
 
   useEffect(() => {
     let colorSchemeStyle;
-    switch (colorScheme) {
+    switch (darkMode ? 'dark' : 'light') {
       case 'dark':
         colorSchemeStyle = darkScheme;
         break;
       case 'light':
         colorSchemeStyle = lightScheme;
         break;
-      default:
-        colorSchemeStyle = systemScheme;
-        break;
     }
     document.documentElement.className = colorSchemeStyle;
-  }, [colorScheme, theme]);
+  }, [darkMode]);
 
   return (
     <>

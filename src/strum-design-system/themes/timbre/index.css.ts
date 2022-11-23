@@ -18,4 +18,4 @@ const timbre = createTheme(vars, {
   spacers,
 });
 
-export default timbre;
+export { timbre };

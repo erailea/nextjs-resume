@@ -9,9 +9,12 @@ import StrumProvider from '../strum-design-system/components/StrumProvider/Strum
 import colors from '../strum-design-system/themes/timbre/colors';
 import '../styles/app.css';
 
+import { Provider } from 'react-redux';
+import themeSlice from '../store/theme-slice';
+
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
-    <>
+    <Provider store={themeSlice}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content={colors.primary} />
@@ -26,7 +29,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
           <Component {...pageProps} />
         </StrumProvider>
       </ErrorBoundary>
-    </>
+    </Provider>
   );
 };
 

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Provider } from 'react-redux';
+import themeSlice from '../../store/theme-slice';
 import {
   educationalExperiences,
   hobbies,
@@ -20,15 +22,17 @@ describe('<ResumeLayout />', () => {
 
   it('Matches the snapshot', () => {
     const { container } = render(
-      <ResumeLayout
-        educations={educationalExperiences}
-        projects={projects}
-        hobbies={hobbies}
-        links={links}
-        personalInformation={personalInformation}
-        professional={professionalExperiences}
-        skills={skills}
-      />,
+      <Provider store={themeSlice}>
+        <ResumeLayout
+          educations={educationalExperiences}
+          projects={projects}
+          hobbies={hobbies}
+          links={links}
+          personalInformation={personalInformation}
+          professional={professionalExperiences}
+          skills={skills}
+        />
+      </Provider>,
     );
     expect(container).toMatchSnapshot();
   });
