@@ -13,10 +13,17 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
-
-      - name: Install
-        run: npm i
-      - name: Unit tests
-        run: npm run test
+      - uses: actions/checkout@v3     
+      - name: Deploy with ssh
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.HOST_USER }}
+          password: ${{ secrets.HOST_PASS }}
+          script: |
+            cd ${{ secrets.PROJECT_ROOT }}
+            git stash | git pull
+            docker-compose down && docker-compose build --pull && docker-compose up -d
+      - name: Purge Docker
+        run: |
+          docker system prune -f
