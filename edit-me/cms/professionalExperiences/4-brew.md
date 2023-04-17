@@ -5,8 +5,4 @@ startDate: October 2020
 title: Senior Software Developer
 ---
 
-I had the opportunity to improve myself
-
-- On the backend micro service and graphql
-- On frontend atomic design, working with storybook and using design tools such as figma, invision, sketch
-- And also on github actions, bitbucket pipeline, docker and kubernetes.
+As a Senior Software Developer at Brew Interactive, I have gained extensive experience in developing microservices and GraphQL on the backend, implementing atomic design and working with design tools like Figma, InVision, and Sketch on the frontend, and utilizing Github actions, Bitbucket pipeline, Docker, and Kubernetes for deployment and DevOps
