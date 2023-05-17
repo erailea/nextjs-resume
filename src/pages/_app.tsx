@@ -16,6 +16,7 @@ import Analytics from './_analytics';
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <Provider store={themeSlice}>
+      <Analytics />
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content={colors.primary} />
@@ -23,7 +24,6 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         <link rel="icon" href="/favicon-512.png" sizes="512x512" />
         <link rel="apple-touch-icon" href="/favicon-512.png" />
         <link rel="manifest" href="/manifest.json" />
-        <Analytics />
       </Head>
       <ErrorBoundary>
         <StrumProvider>
