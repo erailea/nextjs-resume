@@ -22,6 +22,15 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         <link rel="icon" href="/favicon-512.png" sizes="512x512" />
         <link rel="apple-touch-icon" href="/favicon-512.png" />
         <link rel="manifest" href="/manifest.json" />
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4078EZZBM"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-N4078EZZBM');
+        </script>
       </Head>
 
       <ErrorBoundary>
