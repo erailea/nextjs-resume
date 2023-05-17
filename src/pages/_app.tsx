@@ -11,7 +11,7 @@ import '../styles/app.css';
 
 import { Provider } from 'react-redux';
 import themeSlice from '../store/theme-slice';
-import Script from 'next/script';
+import Analytics from './_analytics';
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
@@ -23,17 +23,8 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         <link rel="icon" href="/favicon-512.png" sizes="512x512" />
         <link rel="apple-touch-icon" href="/favicon-512.png" />
         <link rel="manifest" href="/manifest.json" />
+        <Analytics />
       </Head>
-      <Script
-        id="gtm-script"
-        src="https://www.googletagmanager.com/gtag/js?id=G-N4078EZZBM"
-        strategy="afterInteractive"
-      ></Script>
-      <Script id="gtm-script-runner" strategy="afterInteractive">{`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-N4078EZZBM');`}</Script>
       <ErrorBoundary>
         <StrumProvider>
           <Component {...pageProps} />
