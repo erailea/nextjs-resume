@@ -2,7 +2,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
-  console.log(new Date(), req.query, req.body);
+  console.log(new Date(), req.method, req.query, req.body);
   if (req.method === 'GET') {
     if(req.query.world == "test")
       res.status(200).json({ message: `Hello World` });
